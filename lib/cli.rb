@@ -2,13 +2,12 @@ class Caricom::CLI
 
     def run
         greeting
-        binding.pry
         menu
         goodbye
     end 
 
     def greeting
-        puts "Hello!, Welcome to my Caribbean Community information app!"
+        puts "Hello!, and Welcome to my Caribbean Community information app!"
     end 
 
     def menu
@@ -16,7 +15,7 @@ class Caricom::CLI
     end 
 
     def list_country
-        Caricom::Country.each.with_index(1) do |country, index|
+        Caricom::Country.all.each.with_index(1) do |country, index|
             puts "#{index}. #{country.name}"
         end
     end 
@@ -24,9 +23,8 @@ class Caricom::CLI
     def 
 
     def goodbye
-        puts "Thank you for stopping by!"
+        puts "Thank you for using Caricom-Cli!"
+        exit
     end 
 
 end 
-
-Caricom::ClI
