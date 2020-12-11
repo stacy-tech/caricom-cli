@@ -1,0 +1,3 @@
+class Caricom::API
+    
+end

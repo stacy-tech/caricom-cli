@@ -1,0 +1,3 @@
+class Caricom::Country
+    
+end
