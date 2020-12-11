@@ -10,4 +10,9 @@ If the file was saved in another folder on your local machine, follow the same p
 
 ## License
 
-This app is licensed under the MIT License. See MIT LIcense for more information. 
+This app is licensed under the MIT License. See [MIT] LIcense for more information. 
+
+## Acknowledgement
+
+. Flatiron School
+. Laura ~ Cohort lead
