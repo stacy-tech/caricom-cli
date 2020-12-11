@@ -18,6 +18,8 @@ class Caricom::Country
 
     def self.all
         @@all
+        binding.pry
     end
 
 end
+Caricom::Country.get_country

@@ -21,8 +21,12 @@ class Caricom::CLI
         end
     end 
 
+    def 
+
     def goodbye
         puts "Thank you for stopping by!"
     end 
 
 end 
+
+Caricom::ClI
