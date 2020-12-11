@@ -11,10 +11,9 @@ class Caricom::API
         response = Net::HTTP.get(uri)
         countries_data = JSON.parse(response)
         countries_data.each do |country|
+            Country.new(name: country["name"], capital: country["capitol"], population: country["population"])
         end
-        Country.new(name: country["name"], capital: country["capital"], population: country["population"])
     end
 
 end
 
-Caricom::API.new.get_country

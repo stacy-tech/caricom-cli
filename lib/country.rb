@@ -1,15 +1,20 @@
 class Caricom::Country
 
-    attr_accessor :name, :capital, :population
-
     @@all = []
+    
+    attr_accessor :name, :capital, :population
 
     def initialize(name,capital,population)
         @name = name
         @capital = capital
         @population = population
         @@all << self
+        save
     end 
+
+    def save
+        @@all << self
+    end
 
     def self.all
         @@all
