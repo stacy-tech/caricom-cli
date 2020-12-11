@@ -14,4 +14,5 @@ This app is licensed under the MIT License. See [MIT](https://choosealicense.com
 
 ## Acknowledgement
 
-. Flatiron School
+Flatiron School
+Cohort lead ~ Laura 
