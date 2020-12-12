@@ -15,15 +15,13 @@ class Caricom::CLI
     end 
 
     def list_country
-        Caricom::Country.all.each.with_index(1) do |country, index|
-            puts "#{index}. #{country.name}"
+        Caricom::Country.all.each.with_index(1) do |country, i|
+            puts "#{i}. #{country.name}"
         end
     end 
 
-    def 
-
     def goodbye
-        puts "Thank you for using Caricom-Cli!"
+        puts "Thank you for using Caricom Cli!"
         exit
     end 
 
