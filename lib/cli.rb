@@ -7,7 +7,7 @@ class Caricom::CLI
     end 
 
     def greeting
-        puts "Hello!, and Welcome to my Caribbean Community information app!"
+        puts "Hello!, and Welcome to my Caribbean Community information app!"  
     end 
 
     def menu
