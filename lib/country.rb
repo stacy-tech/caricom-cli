@@ -2,7 +2,7 @@ class Caricom::Country
 
     @@all = []
     
-    attr_accessor :name, :capital, :population
+    attr_accessor :name, :capital, :population 
 
     def initialize(name:, capital:, population:)
         @name = name

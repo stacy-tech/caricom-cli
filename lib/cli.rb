@@ -6,7 +6,7 @@ class Caricom::CLI
     end 
 
     def greeting
-        puts "Hello!, and Welcome to my Caribbean Community information app!"  
+        puts "Hello!, Welcome to my Caribbean Community information app!"  
     end 
 
     def menu
@@ -32,7 +32,7 @@ class Caricom::CLI
 
         Caricom::Country.all.each.with_index(1) do |country, i|
             if country_number == i
-                puts "The capital of #{country.name} is #{country.capital}. The population is #{country.population}."
+                puts "The Capital City of #{country.name} is #{country.capital}. With a population of #{country.population}."
                 goodbye
             end
         end
