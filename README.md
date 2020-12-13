@@ -12,3 +12,6 @@ If the file was saved in another folder on your local machine, follow the same p
 
 This app is licensed under the MIT License. See [MIT](https://choosealicense.com/license/mit) LIcense for more information. 
 
+## Acknowledgement
+
+Flatiron School
