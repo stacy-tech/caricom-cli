@@ -4,11 +4,10 @@ class Caricom::Country
     
     attr_accessor :name, :capital, :population
 
-    def initialize(name,capital,population)
+    def initialize(name:, capital:, population:)
         @name = name
         @capital = capital
         @population = population
-        @@all << self
         save
     end 
 
