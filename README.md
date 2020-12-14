@@ -4,9 +4,8 @@ Welcome to the Caricom information app!. This information app is for people who 
 
  ## Installing
 
-Fork and clone this repository to your local machine. Save it somewhere it will be easily accessible, say your Desktop. Then you want to open your terminal application. If the file was saved in your Desktop, you would then type this in your terminal:
-             cd Desktop/caricom-cli
-If the file was saved in another folder on your local machine, follow the same path precedure. 
+Fork and clone this repository to your local machine. Save it somewhere it will be easily accessible, say your Desktop. You then want to open your terminal application. If the file was saved in your Desktop, you would then type this in your terminal:
+             cd Desktop/caricom-cli. If not you would follow the same path precedure with which ever folder the respoitory was saved.
 
 ## License
 
