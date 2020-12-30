@@ -11,6 +11,7 @@ class Caricom::CLI
 
     def menu
         Caricom::API.new.get_country
+        binding.pry
         list_country
     end 
 
@@ -36,6 +37,8 @@ class Caricom::CLI
                 goodbye
             end
         end
+
+        
 
     end
 
