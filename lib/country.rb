@@ -54,9 +54,15 @@ class Caricom::Country
         Caricom::Country.all.select { |country| country.capital.start_with? 'P' }
     end
 
-    # def self.countries_with_capitals_that_start_with(letter)
-
-    # end
+    def self.countries_with_capitals_that_start_with(letter)
+        result = []
+        Caricom::Country.all.select do |country| 
+            if country.capital.start_with? '("a".."z")'.to_s 
+                result << country
+            end 
+        end 
+        return result
+    end
 
 
     # def self.countries_with_capitals_that_start_with_p
@@ -80,8 +86,8 @@ class Caricom::Country
         end
         return result
     end
-    # what a method which returns an array of countries capital.
 
+    # what a method which returns an array of countries capital.
     def self.country_capital
         result = []
         Caricom::Country.all.each do |country|
@@ -90,8 +96,8 @@ class Caricom::Country
         return result
             
     end
+    
     # write a method that returns an array of the countries city and index number.
-
     def self.city
         result = []
         Caricom::Country.all.each.with_index do |country, index|
